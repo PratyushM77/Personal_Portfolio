@@ -1,15 +1,22 @@
 import React from "react";
-
+import { motion } from "framer-motion";
 function Skills() {
   return (
     <div className="pl-46">
       <div className="flex justify-start pb-2">
-        <h2 className="text-3xl text-gray-800 lg:text-2xl font-semibold  ">
-          Skills
-        </h2>
+        <span className="text-3xl text-gray-800 lg:text-2xl font-semibold  ">
+          <motion.h2
+            initial={{ opacity: 0, x: -20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+          >
+            Skills
+          </motion.h2>
+        </span>
       </div>
       <div className="flex justify-start pt-2 pb-4 pr-4">
-        <div className="grid max-w-fit grid-cols-4 md:grid-cols-3 lg:grid-cols-8 gap-4">
+        <div className="grid max-w-fit grid-cols-1 md:grid-cols-3 lg:grid-cols-8 sm:grid-cols-1 gap-10">
           {/* JavaScript */}
           <div
             className="group p-4 flex flex-col items-center rounded-xl border border-gray-500/30 bg-gray-50 hover:bg-gray-100 transition-all duration-500"
@@ -30,7 +37,14 @@ function Skills() {
             </div>
 
             <span className="text-sm font-medium text-gray-400 group-hover:text-gray-500 transition-colors duration-300">
-              JavaScript
+              <motion.h1
+                initial={{ opacity: 0, x: -20 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.8 }}
+                viewport={{ once: true }}
+              >
+                JavaScript
+              </motion.h1>
             </span>
           </div>
 
@@ -54,7 +68,14 @@ function Skills() {
             </div>
 
             <span className="text-sm font-medium text-gray-400 group-hover:text-gray-500 transition-colors duration-300">
-              Tailwind
+              <motion.h1
+                initial={{ opacity: 0, x: -20 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration:  1}}
+                viewport={{ once: true }}
+              >
+                Tailwind
+              </motion.h1>
             </span>
           </div>
 
@@ -77,7 +98,14 @@ function Skills() {
             </div>
 
             <span className="text-sm font-medium text-gray-400 group-hover:text-gray-500 transition-colors duration-300">
-              React
+              <motion.h1
+                initial={{ opacity: 0, x: -20 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 1.2 }}
+                viewport={{ once: true }}
+              >
+                React
+              </motion.h1>
             </span>
           </div>
 
@@ -101,7 +129,14 @@ function Skills() {
             </div>
 
             <span className="text-sm font-medium text-gray-400 group-hover:text-gray-500 transition-colors duration-300">
-              Redux
+              <motion.h1
+                initial={{ opacity: 0, x: -20 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 1.4 }}
+                viewport={{ once: true }}
+              >
+                Redux
+              </motion.h1>
             </span>
           </div>
 
@@ -124,7 +159,14 @@ function Skills() {
             </div>
 
             <span className="text-sm font-medium text-gray-400 group-hover:text-gray-500 transition-colors duration-300">
-              Node.js
+              <motion.h1
+                initial={{ opacity: 0, x: -20 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 1.6 }}
+                viewport={{ once: true }}
+              >
+                Node.js
+              </motion.h1>
             </span>
           </div>
 
@@ -148,7 +190,14 @@ function Skills() {
             </div>
 
             <span className="text-sm font-medium text-gray-400 group-hover:text-gray-500 transition-colors duration-300">
-              Express
+              <motion.h1
+                initial={{ opacity: 0, x: -20 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 1.8 }}
+                viewport={{ once: true }}
+              >
+                Express
+              </motion.h1>
             </span>
           </div>
 
@@ -172,7 +221,14 @@ function Skills() {
             </div>
 
             <span className="text-sm font-medium text-gray-400 group-hover:text-gray-500 transition-colors duration-300">
-              MongoDB
+              <motion.h1
+                initial={{ opacity: 0, x: -20 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 2 }}
+                viewport={{ once: true }}
+              >
+                MongoDB
+              </motion.h1>
             </span>
           </div>
 
@@ -195,7 +251,14 @@ function Skills() {
             </div>
 
             <span className="text-sm font-medium text-gray-400 group-hover:text-gray-500 transition-colors duration-300">
-              Git
+              <motion.h1
+                initial={{ opacity: 0, x: -20 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 2.2 }}
+                viewport={{ once: true }}
+              >
+                Git
+              </motion.h1>
             </span>
           </div>
         </div>
