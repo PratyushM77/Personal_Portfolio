@@ -8,14 +8,14 @@ function Certificates() {
     <motion.div initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, ease: "easeOut" }}
-            viewport={{ once: true }} className="pl-46 pb-4"><h2 className="text-3xl text-gray-800 lg:text-2xl font-semibold  ">
+            viewport={{ once: true }} className="xl:pr-220 lg:pr-175  md:pr-0  sm:pr-0 flex justify-center pb-4"><h2 className="text-3xl text-gray-800 lg:text-2xl font-semibold  ">
           Certificates & badges
         </h2></motion.div>
-    <div className="flex  mt-2 justify-start gap-28 pl-50">
+    <div className="flex flex-col md:flex-row  mt-2 items-center justify-center gap-x-30 p-5">
       <motion.div initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, ease: "easeOut" }}
-            viewport={{ once: true }} className="h-100 w-100 ">
+            viewport={{ once: true }} className="min-w-3xs h-100 w-100 ">
         <a href="https://udemy-certificate.s3.amazonaws.com/image/UC-34b803cf-bf78-4774-a25f-72e881d9f87f.jpg?v=1747757873000">
           <img className=" rounded-4xl transition hover:-translate-y-1 delay-300 hover:scale-110 duration-500 ring ring-gray-500" src={ucert} alt="Udemy-Cert" />
         </a>

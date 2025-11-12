@@ -6,6 +6,7 @@ import Internship from "./Components/Internship";
 import Skills from "./Components/Skills";
 import Projectshowcase from "./Components/Projectshowcase";
 import Certificates from "./Components/Certificates";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Projectshowcase/>
       <Divider/>
       <Certificates/>
+      <Footer/>
     </div>
     </>
   );

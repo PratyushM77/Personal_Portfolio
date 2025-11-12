@@ -1,10 +1,22 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { useState,useEffect } from "react";
+
 function Navbar() {
+    const [time, setTime] = useState(new Date().toLocaleTimeString());
+  
+    
+    useEffect(() => {
+      const timer = setInterval(() => {
+        setTime(new Date().toLocaleTimeString());
+      }, 1000);
+      return () => clearInterval(timer);
+    }, []);
+  
   return (
     <>
-      <div className="flex roboto-google pt-3  justify-around gap-x-96">
-        <div className="order-1 m-2 text-gray-800  pr-4 text-2xl font-semibold">
+      <div className="fixed top-0 left-0 w-full z-50 backdrop-blur-sm bg-white/30 border-b border-gray-200 shadow-sm flex roboto-google pt-3  justify-center lg:gap-60 xl:gap-90 gap-90 md:gap-20 sm:gap-10">
+        <div className="order-1 m-2 text-gray-800pr-4 text-2xl font-semibold">
           {" "}
           <motion.h1
             initial={{ opacity: 0, x: -20 }}
@@ -12,10 +24,10 @@ function Navbar() {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            Pratyush
+            <a href="">Pratyush</a>
           </motion.h1>
         </div>
-        <div className="order-2 m-2 font-normal  pl-4">
+        <div className="order-2 m-2 font-normal ">
           <ul className="flex">
             <motion.li initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -74,6 +86,7 @@ function Navbar() {
             viewport={{ once: true }} className="pl-2 pr-2 text-3xl">📧</motion.li>
           </ul>
         </div>
+        <div className="order-3 text-gray-600 text-2xl font-semibold">{time}</div>
       </div>
     </>
   );

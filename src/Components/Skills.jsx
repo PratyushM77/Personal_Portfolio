@@ -2,8 +2,8 @@ import React from "react";
 import { motion } from "framer-motion";
 function Skills() {
   return (
-    <div className="pl-46">
-      <div className="flex justify-start pb-2">
+    <div className="">
+      <div className="flex justify-center xl:pr-255 lg:pr-118  md:pr-80 sm:pr-0 pb-8">
         <span className="text-3xl text-gray-800 lg:text-2xl font-semibold  ">
           <motion.h2
             initial={{ opacity: 0, x: -20 }}
@@ -15,8 +15,8 @@ function Skills() {
           </motion.h2>
         </span>
       </div>
-      <div className="flex justify-start pt-2 pb-4 pr-4">
-        <div className="grid max-w-fit grid-cols-1 md:grid-cols-3 lg:grid-cols-8 sm:grid-cols-1 gap-10">
+      <div className="flex justify-center pt-2 pb-4 pr-4">
+        <div className="grid min-w-3xs max-w-fit grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-8 sm:grid-cols-2  gap-10">
           {/* JavaScript */}
           <div
             className="group p-4 flex flex-col items-center rounded-xl border border-gray-500/30 bg-gray-50 hover:bg-gray-100 transition-all duration-500"
