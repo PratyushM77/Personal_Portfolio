@@ -15,8 +15,8 @@ function Navbar() {
   
   return (
     <>
-      <div className="fixed top-0 left-0 w-full z-50 backdrop-blur-sm bg-white/30 border-b border-gray-200 shadow-sm flex roboto-google pt-3  justify-center lg:gap-60 xl:gap-90 gap-90 md:gap-20 sm:gap-10">
-        <div className="order-1 m-2 text-gray-800pr-4 text-2xl font-semibold">
+      <div className="fixed pb-3 top-0 left-0 w-full z-50 backdrop-blur-sm bg-white/30 border-b border-gray-200 shadow-sm flex roboto-google pt-3  justify-center lg:gap-60 xl:gap-90 gap-90 md:gap-20 sm:gap-10">
+        <div className="order-1  text-gray-800pr-4 text-2xl font-semibold">
           {" "}
           <motion.h1
             initial={{ opacity: 0, x: -20 }}
@@ -27,7 +27,7 @@ function Navbar() {
             <a href="https://personal-portfolio-xi-seven-62.vercel.app/">Pratyush</a>
           </motion.h1>
         </div>
-        <div className="order-2 m-2 font-normal ">
+        <div className="order-2  font-normal ">
           <ul className="flex">
             <motion.li initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -86,7 +86,7 @@ function Navbar() {
             viewport={{ once: true }} className="pl-2 pr-2 text-3xl">📧</motion.li>
           </ul>
         </div>
-        <div className="order-3 text-gray-600 text-2xl font-semibold">{time}</div>
+        <div className="order-3 text-gray-600  text-2xl font-semibold">{time}</div>
       </div>
     </>
   );
