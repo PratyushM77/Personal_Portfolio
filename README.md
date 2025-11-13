@@ -1,16 +1,103 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🧑‍💻 Personal Portfolio — Pratyush Mishra
 
-Currently, two official plugins are available:
+This is my personal developer portfolio built using **React.js**, **Tailwind CSS**, and **Framer Motion**.  
+It showcases my projects, skills, certifications, and internship experience — all designed with smooth animations and a clean responsive layout.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Live Demo
+🔗 [View Portfolio](https://personal-portfolio-xi-seven-62.vercel.app/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧩 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React.js, Tailwind CSS  
+- **Animations:** Framer Motion  
+- **Deployment:** Vercel  
+- **Version Control:** Git & GitHub  
+
+---
+
+## 🧠 Features
+
+- 📱 **Fully Responsive** design — works smoothly on all devices  
+- ✨ **Animated sections** using Framer Motion for a clean, modern feel  
+- 💼 **Projects showcase** with hover effects  
+- 🎓 **Certificates section** with clickable certificate previews  
+- 🧰 **Internship & Skills sections** highlighting real-world experience  
+- 📌 **Sticky Navbar** with blur background for smooth navigation  
+
+---
+
+## 📂 Folder Structure
+```
+portfolio/
+ ├── public/
+ ├── src/
+ │   ├── assets/              # Images & certificates
+ │   ├── Components/          # All reusable components
+ │   │   ├── About.jsx
+ │   │   ├── Certificates.jsx
+ │   │   ├── Divider.jsx
+ │   │   ├── Footer.jsx
+ │   │   ├── Internship.jsx
+ │   │   ├── Navbar.jsx
+ │   │   ├── Projectshowcase.jsx
+ │   │   └── Skills.jsx
+ │   ├── App.js
+ │   └── index.js
+ ├── package.json
+ ├── tailwind.config.js
+ └── README.md
+```
+
+---
+
+## ⚙️ Setup Instructions
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/<your-username>/personal-portfolio.git
+   ```
+
+2. Navigate to the folder:
+   ```bash
+   cd personal-portfolio
+   ```
+
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Run locally:
+   ```bash
+   npm run dev
+   ```
+
+5. Open in browser:  
+   [http://localhost:5173](http://localhost:5173)
+
+---
+
+## 📸 Preview
+*(Add a screenshot of your site here if you want)*  
+Example:
+```
+![Portfolio Screenshot](./src/assets/Portfolio_ss.png)
+```
+
+---
+
+## 👨‍🎓 About Me
+Hi! I’m **Pratyush Mishra**, an aspiring **Full Stack Developer** who loves building real-world applications using the **MERN stack**.  
+I focus on writing clean, maintainable code and continuously improving my problem-solving and backend integration skills.
+
+---
+
+## 💌 Contact
+- 📧 Email: sibbumishra9161@gmail.com  
+- 💼 LinkedIn: [linkedin.com/in/pratyushmishra](https://www.linkedin.com/in/pratyush77/)  
+- 🐙 GitHub: [github.com/your-username](https://github.com/PratyushM77)
