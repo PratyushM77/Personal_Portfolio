@@ -83,11 +83,10 @@ portfolio/
 ---
 
 ## 📸 Preview
-*(Add a screenshot of your site here if you want)*  
-Example:
-```
+
+
 ![Portfolio Screenshot](./src/assets/Portfolio_ss.png)
-```
+
 
 ---
 
