@@ -24,7 +24,7 @@ function Navbar() {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <a href="">Pratyush</a>
+            <a href="https://personal-portfolio-xi-seven-62.vercel.app/">Pratyush</a>
           </motion.h1>
         </div>
         <div className="order-2 m-2 font-normal ">
