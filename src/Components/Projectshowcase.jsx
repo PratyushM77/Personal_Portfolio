@@ -21,7 +21,7 @@ function Projectshowcase() {
   </h2>
 </motion.div>
       <div className="flex justify-center p-40 pb-4 pt-4">
-        <div className="grid min-w-sm sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-x-40 gap-y-10  ">
+        <div className="grid min-w-xs sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-x-40 gap-y-10  ">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}

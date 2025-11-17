@@ -15,7 +15,7 @@ function Certificates() {
       <motion.div initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, ease: "easeOut" }}
-            viewport={{ once: true }} className="min-w-3xs h-100 w-100 ">
+            viewport={{ once: true }} className="min-w-2xs p-5 h-100 w-100 ">
         <a href="https://udemy-certificate.s3.amazonaws.com/image/UC-34b803cf-bf78-4774-a25f-72e881d9f87f.jpg?v=1747757873000">
           <img className=" rounded-4xl transition hover:-translate-y-1 delay-300 hover:scale-110 duration-500 ring ring-gray-500" src={ucert} alt="Udemy-Cert" />
         </a>
@@ -23,7 +23,7 @@ function Certificates() {
       <motion.div initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, ease: "easeOut" }}
-            viewport={{ once: true }} className="h-100 w-100 cursor-pointer">
+            viewport={{ once: true }} className="h-100 w-100 p-5 cursor-pointer">
         <a>
           <img className="transition hover:-translate-y-1 delay-300 hover:scale-110 duration-500 object-cover p-1 rounded-4xl ring ring-gray-500" src={icert} alt="Intership_cert" />
         </a>
